@@ -40,5 +40,11 @@ namespace annoyingasfuck
             score += 1;
             label1.Text = "score = " + score;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button1.Location = new Point(12, 34);
+            this.Height = 559;
+        }
     }
 }
